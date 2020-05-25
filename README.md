@@ -13,9 +13,15 @@ I share tips, tricks and learnings as I learn Vim and add a .vimrc file to follo
 - Move to the end of line (Puts into INSERT mode after)```Shft + a```
 - Move to the beginning of file ```g + g```
 - Move to the end of file ```Shft + g```
-- Movement by a number ```Number_of_lines + movement_command```
 - Movement in a line to a particular character ```t (or f) + character```  
 ## Selecting a block of text
 - Selecting blocks with entire line selected ```Shft + v + movement_command(optional```
 - Selecting blocks of text with entire line not selected at once ```Ctrl + v + movement_command(optional)```
-
+## General Editing
+- Copy selection ```Selection + y```
+- Paste selection ```p```
+- Delete selection ```selection + d```
+(Note: delete selection places copied contents to clipboard hence they can be used in copy paste operations as well)
+(Note: ```d + d``` removes the entire line on which the cursor is)
+## General Rules
+- Place a number before a command and that command will be repeated by that number of times . Eg. ```3 + d + d``` should remove 3 lines
