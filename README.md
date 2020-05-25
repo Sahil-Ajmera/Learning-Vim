@@ -32,3 +32,4 @@ I share tips, tricks and learnings as I learn Vim and add a .vimrc file to follo
 ## General Rules
 - Place a number before a command and that command will be repeated by that number of times . Eg. ```3 + d + d``` should remove 3 lines
 - Repeat the last entered command ```.```
+- Upper case and lower case character commands can help a lot. For eg. ```p``` is to paste below the cursor and ```P``` is to paste above cursor. ```o``` is add a line below cursor and ```O``` is to add a line above cursor.
