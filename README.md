@@ -24,6 +24,9 @@ I share tips, tricks and learnings as I learn Vim and add a .vimrc file to follo
 - Delete selection ```selection + d```
 (Note: delete selection places copied contents to clipboard hence they can be used in copy paste operations as well)
 (Note: ```d + d``` removes the entire line on which the cursor is)
+## General Search
+- To search for a word in a file```/ + word``` ( Note: To keep searching for next occurence of this word, ```n``` and to stop at a particular occurence ```Enter```)
+(Note: if you want to search for word under the cursor, ```*``` can be used to go to next occurence of that particular workd)
 ## General Rules
 - Place a number before a command and that command will be repeated by that number of times . Eg. ```3 + d + d``` should remove 3 lines
 - Repeat the last entered command ```.```
