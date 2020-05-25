@@ -14,8 +14,9 @@ I share tips, tricks and learnings as I learn Vim and add a .vimrc file to follo
 - Move to the beginning of file ```g + g```
 - Move to the end of file ```Shft + g```
 - Movement in a line to a particular character ```t (or f) + character```  
+- Move to first word in the line ```0 + w```
 ## Selecting a block of text
-- Selecting blocks with entire line selected ```Shft + v + movement_command(optional```
+- Selecting blocks with entire line selected ```Shft + v + movement_command(optional)```
 - Selecting blocks of text with entire line not selected at once ```Ctrl + v + movement_command(optional)```
 ## General Editing
 - Copy selection ```Selection + y```
@@ -25,3 +26,4 @@ I share tips, tricks and learnings as I learn Vim and add a .vimrc file to follo
 (Note: ```d + d``` removes the entire line on which the cursor is)
 ## General Rules
 - Place a number before a command and that command will be repeated by that number of times . Eg. ```3 + d + d``` should remove 3 lines
+- Repeat the last entered command ```.```
