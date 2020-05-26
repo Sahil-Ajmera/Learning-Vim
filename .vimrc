@@ -155,7 +155,7 @@ call pathogen#infect()
 
 " Settings for vim-powerline
 " cd ~/.vim/bundle
-" git clone https://github.com/powerline/powerline.git
+" git clone https://github.com/Lokaltog/vim-powerline.git
 set laststatus=2
 
 
