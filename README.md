@@ -37,7 +37,7 @@ I share tips, tricks and learnings as I learn Vim and add a .vimrc file to follo
 ## General Search and replace
 - To replace a word in the entire file without asking```:%s/oldstring/newstring/g```
 - To replace a word in the entire file with asking ```:%s/oldstring/newstring/gc```
-- To replace a word in a set of lines ```:3,9s/oldstring/newstring/g```
+- To replace a word in a set of lines ```:linenumber1,linenumber2s/oldstring/newstring/g```
 ## Macros
 - To start a macro ```q + char```
 - To stop recording ```q```
