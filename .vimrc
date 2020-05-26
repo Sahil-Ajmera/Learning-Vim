@@ -12,6 +12,12 @@
 " Automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
 
+" Disable the normal up, down, left and right keys ( This is optional but
+" recommended )
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
 
 " Better copy & paste
 " When you want to paste large blocks of code into vim, press F2 before you
