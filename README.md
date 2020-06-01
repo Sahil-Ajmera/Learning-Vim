@@ -49,6 +49,7 @@ I share tips, tricks and learnings as I learn Vim and add a .vimrc file to follo
 - To go to definition ```, + d```
 - Folding functions ```f``` at function or ```Shift + f``` to fold all functions in file.
 - Look at opening closing bracket combinations in a line ```%```
+- Comment (Make selection)```Shift + v``` + (comment)```:'<,'>norm i#``` and Uncomment (Make Selection)```Shift + v```  + (Uncomment)```:'<,'>norm ^x```
 ## General Rules
 - Place a number before a command and that command will be repeated by that number of times . Eg. ```3 + d + d``` should remove 3 lines
 - Repeat the last entered command ```.```
