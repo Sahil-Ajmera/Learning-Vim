@@ -34,6 +34,7 @@ I share tips, tricks and learnings as I learn Vim and add a .vimrc file to follo
 ## General Search
 - To search for a word in a file```/ + word``` ( Note: To keep searching for next occurence of this word, ```n``` and to stop at a particular occurence ```Enter```)
 (Note: if you want to search for word under the cursor, ```*``` can be used to go to next occurence of that particular workd)
+- To search for a phrase in a recursive manner from current location to down ```:vimgrep /phrase-to-search/ **/*``` 
 ## General Search and replace
 - To replace a word in the entire file without asking```:%s/oldstring/newstring/g```
 - To replace a word in the entire file with asking ```:%s/oldstring/newstring/gc```
@@ -53,3 +54,4 @@ I share tips, tricks and learnings as I learn Vim and add a .vimrc file to follo
 - Repeat the last entered command ```.```
 - Upper case and lower case character commands can help a lot. For eg. ```p``` is to paste below the cursor and ```P``` is to paste above cursor. ```o``` is add a line below cursor and ```O``` is to add a line above cursor.
 - To execute a command without going to terminal ```!command```
+- Many commands can be mixed and matched to do what you would like to do
